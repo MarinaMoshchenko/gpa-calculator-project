@@ -28,6 +28,7 @@ render() {
         <Course name={this.state.courseList[1]} grade={this.state.gradeList[1]} addToCourseList = {this.addToCourseList} />
         <Course name={this.state.courseList[2]} grade={this.state.gradeList[2]} addToCourseList = {this.addToCourseList} /> */}
         {/* <Summary globalState={this.state} /> */}
+        <p>Your courses: {this.state.courseList}</p>        
         <p>Your GPA: {this.calculateGpa()}</p>        
       </div>
     );
